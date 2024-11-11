@@ -13,14 +13,21 @@ body{
     background-color: black;
 }
 .navbar{
-    /* background-color: aliceblue; */
     color: white;
-    margin-top: 30px;
-    /* margin-bottom: 100px; */
+
+}
+#logo{
+    position: relative;
+    height: 80px;
+    top: 50px;
+    filter: brightness(3);
+    margin-left: 50px;
+    mix-blend-mode:screen;
+    border-radius: 40px;
 }
 ul{
     display:flex;
-    justify-content:end;
+    justify-content:flex-end;
     gap: 35px;
     list-style: none;
     margin-right: 40px;
