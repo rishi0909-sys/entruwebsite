@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
     color: white;
 }
 body{
@@ -14,14 +14,13 @@ body{
 }
 .navbar{
     color: white;
-
 }
 #logo{
     position: relative;
     height: 80px;
     top: 50px;
     filter: brightness(3);
-    margin-left: 50px;
+    margin-left: 10px;
     mix-blend-mode:screen;
     border-radius: 40px;
 }
@@ -41,6 +40,11 @@ li{
 li a{
     text-decoration: none;
     color: white;
+    opacity:0.4;
+    transition: opacity 0.3s ease-out;
+}
+li a:hover{
+    opacity:1;
 }
 #home{
     /* display: flex; */
@@ -321,10 +325,22 @@ footer {
     font-size: 0.8em;
     color: #aaa;
 }
-#cursor{
-    height: 50px;
-    width: 50px;
-    background-color:white;
-    border-radius: 50%;
-    z-index: 2;
+@media (max-width:700px){
+    .navbar{
+        width: 300px;
+    }
+    ul{
+        display: flex;
+        justify-content:flex-end;
+        gap:14px;
+        margin-right: 0px;
+    }
+    li{
+        padding:5px;
+    }
+    #logo{
+        top:10px;
+        width: 90px;
+    }
+    
 }
