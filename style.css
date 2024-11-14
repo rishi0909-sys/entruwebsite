@@ -110,8 +110,9 @@ section#About-Us{
 }
 .member{    
     display: flex;
+    align-items: center;
     margin: auto;
-    height: 315px;
+    height: 295px;
     width:80vw;
     border-radius: 20px;
     /* border: 4px solid red; */
@@ -148,7 +149,7 @@ section#About-Us{
     grid-row:3;
 }
 .info{
-    padding: 85px;
+    padding: 95px;
     font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
   font-weight:300;
