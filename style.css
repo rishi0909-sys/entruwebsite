@@ -65,6 +65,7 @@ li a:hover{
 }
 #text{
     /* background-color: aqua; */
+   position:absolute;
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight:300;
@@ -74,18 +75,22 @@ li a:hover{
     
 }
 .text-area{
+    display: flex;
+    align-items: center;
     position: relative;
   color: white;
+  height: 800px;
   padding: 20px;
   max-width: 800px;
-  background-color: rgba(0, 0, 0, 0.7); 
+  background-color: rgba(0, 0, 0, 0.5); 
   box-shadow: 12px 12px 155px black;
   z-index: 1;
 }
 section#About-Us{
-    margin-top: 20px;  
-    height: 110vh;
-    color: white;
+    margin-top: 20px; 
+    min-height: 20vh; 
+    /* height: 110vh; */
+    /* color: white; */
     /* background-color: white; */
 }
 .member{    
@@ -138,11 +143,11 @@ section#About-Us{
 }
 section#contact{
     margin-top:80px ;
-    height:70vh;
+    height:770px;
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    /* background-color:white; */
+    /* background-color:red; */
 }
 .heading{
     font-size:xx-large;
